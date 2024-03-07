@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 st.title('Dashboard Analisis Kualitas Udara (Huairou)')
 
 # Memanggil Data dari CSV lokal
-df = pd.read_csv('all_data.csv')
+df = pd.read_csv('./all_data.csv')
 
 # Menampilkan Head Data
 if st.checkbox('Show DataFrame'):
